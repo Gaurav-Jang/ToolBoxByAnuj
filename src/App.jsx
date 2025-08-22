@@ -1,12 +1,14 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import Home from './pages/Home'
-import About from './pages/About'
-import Contact from './pages/Contact'
-import Apps from './pages/Apps'
-import AppDetail from './pages/AppDetail'
-import PrivacyPolicy from './pages/PrivacyPolicy'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Apps from "./pages/Apps";
+import Blogs from "./pages/Blogs";
+import AppDetail from "./pages/AppDetail";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import BlogDetail from "./pages/BlogDetail";
 
 function App() {
   return (
@@ -20,13 +22,15 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/apps" element={<Apps />} />
             <Route path="/apps/:id" element={<AppDetail />} />
+            <Route path="/blogs" element={<Blogs />} />
+            <Route path="/blogs/:id" element={<BlogDetail />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           </Routes>
         </main>
         <Footer />
       </div>
     </Router>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "title": "The Future of React in 2025",
+    "description": "Exploring upcoming features and trends shaping the React ecosystem.",
+    "longDescription": "React continues to dominate front-end development. In this article, we look into new features, concurrent rendering, server components, and why React is still the go-to for developers in 2025.",
+    "author": "Gaurav Jangra",
+    "date": "August 18, 2025",
+    "category": "Tech",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnWwWcHpya-SzuqZL8A0EDfnQPpo0Z3BQCCw&s"
+  },
+  {
+    "id": "2",
+    "title": "Mastering Street Photography",
+    "description": "Tips and techniques to capture powerful moments on the streets.",
+    "longDescription": "Street photography requires patience, timing, and a good eye. Learn how to work with natural light, approach strangers, and create compelling photo stories.",
+    "author": "Amit Sharma",
+    "date": "August 15, 2025",
+    "category": "Photography",
+    "image": "https://source.unsplash.com/600x400/?street,photography"
+  },
+  {
+    "id": "3",
+    "title": "Top 10 Destinations for 2025",
+    "description": "A curated list of must-visit travel spots this year.",
+    "longDescription": "From Iceland’s northern lights to Bali’s beaches, discover the top 10 travel destinations for 2025, with tips for budget travel and hidden gems.",
+    "author": "Sarah Lee",
+    "date": "August 10, 2025",
+    "category": "Travel",
+    "image": "https://source.unsplash.com/600x400/?travel,destinations"
+  },
+  {
+    "id": "4",
+    "title": "Minimalist Living: A Lifestyle Choice",
+    "description": "Why minimalism is more than just a trend.",
+    "longDescription": "Minimalism focuses on living intentionally. From decluttering to mindful consumption, learn how adopting minimalism can improve your life quality.",
+    "author": "John Doe",
+    "date": "August 5, 2025",
+    "category": "Lifestyle",
+    "image": "https://source.unsplash.com/600x400/?minimalism,lifestyle"
+  },
+  {
+    "id": "5",
+    "title": "Designing for Accessibility",
+    "description": "Making digital products inclusive for everyone.",
+    "longDescription": "Accessibility in design ensures no user is left behind. Learn WCAG guidelines, best practices, and how to implement accessible design in your projects.",
+    "author": "Emily Carter",
+    "date": "August 1, 2025",
+    "category": "Design",
+    "image": "https://source.unsplash.com/600x400/?design,ui"
+  },
+  {
+    "id": "6",
+    "title": "The Rise of Plant-Based Diets",
+    "description": "How plant-based diets are transforming the food industry.",
+    "longDescription": "More people are shifting towards plant-based diets for health and environmental reasons. This article explores the trend and provides beginner tips.",
+    "author": "Rohan Gupta",
+    "date": "July 28, 2025",
+    "category": "Food",
+    "image": "https://source.unsplash.com/600x400/?food,vegan"
+  },
+  {
+    "id": "7",
+    "title": "Home Workouts That Actually Work",
+    "description": "Stay fit without going to the gym.",
+    "longDescription": "Discover simple but effective workout routines you can do at home, requiring little to no equipment, perfect for busy professionals.",
+    "author": "Priya Mehta",
+    "date": "July 20, 2025",
+    "category": "Fitness",
+    "image": "https://source.unsplash.com/600x400/?fitness,workout"
+  }
+]
