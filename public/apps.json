@@ -1,0 +1,79 @@
+[
+  {
+    "id": "1",
+    "name": "TaskMaster Pro",
+    "description": "A powerful task management app that helps you stay organized and productive.",
+    "longDescription": "TaskMaster Pro is designed to help you manage tasks, stay productive, and keep track of your daily goals. With advanced features like project categorization, deadline tracking, and team collaboration, it's the perfect tool for both personal and professional use. The intuitive interface makes it easy to organize your workflow and boost productivity.",
+    "image": "/images/taskmaster-pro.jpg",
+    "link": "https://taskmaster-pro.example.com",
+    "category": "Productivity",
+    "rating": 4.8,
+    "downloads": "1M+"
+  },
+  {
+    "id": "2",
+    "name": "Smart Calculator",
+    "description": "An intelligent calculator with advanced mathematical functions and AI assistance.",
+    "longDescription": "Smart Calculator provides innovative solutions for everyday mathematical challenges with AI-powered features. It supports complex calculations, graphing, unit conversions, and even natural language input. Perfect for students, engineers, and professionals who need reliable computational tools.",
+    "image": "/images/smart-calculator.jpg",
+    "link": "https://smart-calculator.example.com",
+    "category": "Education",
+    "rating": 4.6,
+    "downloads": "500K+"
+  },
+  {
+    "id": "3",
+    "name": "PhotoEdit Studio",
+    "description": "Professional photo editing with AI-powered enhancements and filters.",
+    "longDescription": "PhotoEdit Studio brings professional-grade photo editing to your fingertips. With AI-powered automatic enhancements, a vast library of filters, and advanced editing tools, you can transform your photos into stunning masterpieces. Whether you're a beginner or a professional photographer, this app has everything you need.",
+    "image": "/images/photoedit-studio.jpg",
+    "link": "https://photoedit-studio.example.com",
+    "category": "Photography",
+    "rating": 4.9,
+    "downloads": "2M+"
+  },
+  {
+    "id": "4",
+    "name": "FitTracker",
+    "description": "Complete fitness tracking with workout plans and nutrition guidance.",
+    "longDescription": "FitTracker is your comprehensive fitness companion that helps you achieve your health goals. Track workouts, monitor nutrition, set fitness goals, and get personalized workout plans. With detailed analytics and progress tracking, you'll stay motivated on your fitness journey.",
+    "image": "/images/fittracker.jpg",
+    "link": "https://fittracker.example.com",
+    "category": "Health & Fitness",
+    "rating": 4.7,
+    "downloads": "750K+"
+  },
+  {
+    "id": "5",
+    "name": "CodeSnippet Manager",
+    "description": "Organize and share your code snippets with syntax highlighting and cloud sync.",
+    "longDescription": "CodeSnippet Manager is the ultimate tool for developers to organize, store, and share code snippets. With syntax highlighting for over 100 programming languages, cloud synchronization, and team collaboration features, it's an essential tool for any developer's workflow.",
+    "image": "/images/codesnippet-manager.jpg",
+    "link": "https://codesnippet-manager.example.com",
+    "category": "Developer Tools",
+    "rating": 4.8,
+    "downloads": "300K+"
+  },
+  {
+    "id": "6",
+    "name": "MindMap Creator",
+    "description": "Create beautiful mind maps and brainstorm ideas with collaborative features.",
+    "longDescription": "MindMap Creator helps you visualize your thoughts and ideas through beautiful, interactive mind maps. Perfect for brainstorming, project planning, and knowledge organization. With real-time collaboration and export options, it's ideal for teams and individuals alike.",
+    "image": "/images/mindmap-creator.jpg",
+    "link": "https://mindmap-creator.example.com",
+    "category": "Productivity",
+    "rating": 4.5,
+    "downloads": "400K+"
+  },
+  {
+    "id": "7",
+    "name": "CapCut",
+    "description": "Create beautiful videos and brainstorm ideas with collaborative features.",
+    "longDescription": "CapCut Creator helps you visualize your thoughts and ideas through beautiful, interactive mind maps. Perfect for brainstorming, project planning, and knowledge organization. With real-time collaboration and export options, it's ideal for teams and individuals alike.",
+    "image": "https://pngdownload.io/wp-content/uploads/2024/01/CapCut-Logo-video-editing-transparent-PNG-image-jpg.webp",
+    "link": "https://mindmap-creator.example.com",
+    "category": "Productivity",
+    "rating": 4.5,
+    "downloads": "300K+"
+  }
+]
