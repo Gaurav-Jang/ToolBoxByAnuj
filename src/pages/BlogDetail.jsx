@@ -139,6 +139,20 @@ const BlogDetail = () => {
           <p className="text-gray-700 leading-relaxed whitespace-pre-line text-sm sm:text-base">
             {blog.longDescription || blog.description}
           </p>
+
+          {/* ✅ Instagram Reel Button */}
+          {blog.reel && (
+            <div className="mt-8 text-center">
+              <a
+                href={blog.reel}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-gradient-to-r from-pink-500 to-purple-600 text-white font-medium px-6 py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
+              >
+                🎥 Watch Reel
+              </a>
+            </div>
+          )}
         </div>
       </motion.div>
 

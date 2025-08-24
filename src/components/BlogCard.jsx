@@ -7,7 +7,7 @@ const BlogCard = ({ blog }) => {
       whileHover={{ y: -8, scale: 1.02 }}
       whileTap={{ scale: 0.98 }}
       transition={{ duration: 0.2 }}
-      className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow duration-300"
+      className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow duration-300 h-[450px] flex flex-col"
     >
       {/* Blog Image */}
       <div className="relative h-48 bg-gradient-to-br from-blue-100 to-purple-100 flex items-center justify-center">
@@ -48,22 +48,22 @@ const BlogCard = ({ blog }) => {
       </div>
 
       {/* Blog Info */}
-      <div className="p-6">
+      <div className="p-6 flex-1 flex flex-col">
         <h3 className="text-xl font-semibold text-gray-900 font-poppins line-clamp-1 mb-2">
           {blog.title}
         </h3>
-        <p className="text-gray-600 text-sm mb-4 line-clamp-2">
+        <p className="text-gray-600 text-sm mb-4 line-clamp-2 flex-1">
           {blog.description}
         </p>
 
         {/* Author & Date */}
         <div className="flex items-center justify-between text-sm text-gray-500 mb-4">
-          <span>{blog.author}</span>
-          <span>{blog.date}</span>
+          <span className="truncate max-w-[120px]">{blog.author}</span>
+          <span className="truncate max-w-[80px]">{blog.date}</span>
         </div>
 
         {/* View Button */}
-        <Link to={`/blogs/${blog.id}`}>
+        <Link to={`/blogs/${blog.id}`} className="mt-auto">
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}

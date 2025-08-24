@@ -7,7 +7,8 @@
     "author": "Gaurav Jangra",
     "date": "August 18, 2025",
     "category": "Tech",
-    "image": "https://plus.unsplash.com/premium_photo-1685283298465-e52e933a3312?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2VvfGVufDB8fDB8fHww"
+    "image": "https://plus.unsplash.com/premium_photo-1685283298465-e52e933a3312?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2VvfGVufDB8fDB8fHww",
+    "reel": "https://www.instagram.com/reel/DNfxzfZp2tF/?igsh=MzRlODBiNWFlZA=="
   },
   {
     "id": "2",
@@ -17,7 +18,8 @@
     "author": "Amit Sharma",
     "date": "August 15, 2025",
     "category": "Photography",
-    "image": "https://source.unsplash.com/600x400/?street,photography"
+    "image": "https://source.unsplash.com/600x400/?street,photography",
+    "reel": "https://www.instagram.com/reel/DNfxzfZp2tF/?igsh=MzRlODBiNWFlZA=="
   },
   {
     "id": "3",
@@ -27,7 +29,8 @@
     "author": "Sarah Lee",
     "date": "August 10, 2025",
     "category": "Travel",
-    "image": "https://source.unsplash.com/600x400/?travel,destinations"
+    "image": "https://source.unsplash.com/600x400/?travel,destinations",
+    "reel": "https://www.instagram.com/reel/DNfxzfZp2tF/?igsh=MzRlODBiNWFlZA=="
   },
   {
     "id": "4",
@@ -37,7 +40,8 @@
     "author": "John Doe",
     "date": "August 5, 2025",
     "category": "Lifestyle",
-    "image": "https://source.unsplash.com/600x400/?minimalism,lifestyle"
+    "image": "https://source.unsplash.com/600x400/?minimalism,lifestyle",
+    "reel": "https://www.instagram.com/reel/DNfxzfZp2tF/?igsh=MzRlODBiNWFlZA=="
   },
   {
     "id": "5",
@@ -47,7 +51,8 @@
     "author": "Emily Carter",
     "date": "August 1, 2025",
     "category": "Design",
-    "image": "https://source.unsplash.com/600x400/?design,ui"
+    "image": "https://source.unsplash.com/600x400/?design,ui",
+    "reel": "https://www.instagram.com/reel/DNfxzfZp2tF/?igsh=MzRlODBiNWFlZA=="
   },
   {
     "id": "6",
@@ -57,7 +62,8 @@
     "author": "Rohan Gupta",
     "date": "July 28, 2025",
     "category": "Food",
-    "image": "https://source.unsplash.com/600x400/?food,vegan"
+    "image": "https://source.unsplash.com/600x400/?food,vegan",
+    "reel": "https://www.instagram.com/reel/DNfxzfZp2tF/?igsh=MzRlODBiNWFlZA=="
   },
   {
     "id": "7",
@@ -67,6 +73,7 @@
     "author": "Priya Mehta",
     "date": "July 20, 2025",
     "category": "Fitness",
-    "image": "https://source.unsplash.com/600x400/?fitness,workout"
+    "image": "https://source.unsplash.com/600x400/?fitness,workout",
+    "reel": "https://www.instagram.com/reel/DNfxzfZp2tF/?igsh=MzRlODBiNWFlZA=="
   }
 ]

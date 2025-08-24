@@ -257,7 +257,7 @@ const Contact = () => {
               </p>
 
               <motion.a
-                href="https://t.me/toolboxbyanuj_official"
+                href="https://t.me/+9VLLc-uIqUw2MWE1"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
