@@ -111,10 +111,15 @@ const BlogDetail = () => {
         </div>
 
         <div className="p-8">
-          <div className="flex items-center text-sm text-gray-500 space-x-4 mb-4">
-            <span>{blog.author}</span>
+          {/* Blog Meta Info */}
+          <div className="flex flex-wrap items-center text-sm text-gray-500 gap-x-2 gap-y-1 mb-4">
+            <span className="truncate max-w-[120px] sm:max-w-none">
+              {blog.author}
+            </span>
             <span>•</span>
-            <span>{blog.date}</span>
+            <span className="truncate max-w-[120px] sm:max-w-none">
+              {blog.date}
+            </span>
             {blog.category && (
               <>
                 <span>•</span>
@@ -124,8 +129,14 @@ const BlogDetail = () => {
               </>
             )}
           </div>
-          <h1 className="text-3xl font-bold mb-6">{blog.title}</h1>
-          <p className="text-gray-700 leading-relaxed whitespace-pre-line">
+
+          {/* Blog Title */}
+          <h1 className="text-2xl sm:text-3xl font-bold mb-6 leading-snug break-words">
+            {blog.title}
+          </h1>
+
+          {/* Blog Content */}
+          <p className="text-gray-700 leading-relaxed whitespace-pre-line text-sm sm:text-base">
             {blog.longDescription || blog.description}
           </p>
         </div>
