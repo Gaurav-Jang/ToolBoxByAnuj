@@ -56,12 +56,12 @@ const Footer = () => {
               <p className="text-gray-300 text-sm">
                 Stay updated with the latest apps and features.
               </p>
-              <Link
+              {/* <Link
                 to="/contact"
                 className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors duration-200"
               >
                 Get in Touch
-              </Link>
+              </Link> */}
 
               {/* Social Media Icons */}
               <div className="flex space-x-4 mt-4">
