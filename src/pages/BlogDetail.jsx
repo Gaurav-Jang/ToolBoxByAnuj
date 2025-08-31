@@ -136,9 +136,12 @@ const BlogDetail = () => {
           </h1>
 
           {/* Blog Content */}
-          <p className="text-gray-700 leading-relaxed whitespace-pre-line text-sm sm:text-base">
-            {blog.longDescription || blog.description}
-          </p>
+          <div
+            className="text-gray-700 leading-relaxed text-sm sm:text-base space-y-4"
+            dangerouslySetInnerHTML={{
+              __html: blog.longDescription || blog.description,
+            }}
+          />
 
           {/* ✅ Instagram Reel Button */}
           {blog.reel && (
