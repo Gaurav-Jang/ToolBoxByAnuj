@@ -79,7 +79,7 @@ const Footer = () => {
 
                 {/* Telegram */}
                 <motion.a
-                  href="https://t.me/yourusername"
+                  href="https://t.me/+9VLLc-uIqUw2MWE1"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.2 }}
@@ -91,7 +91,7 @@ const Footer = () => {
 
                 {/* YouTube */}
                 <motion.a
-                  href="https://youtube.com/@yourchannel"
+                  href="https://www.youtube.com/@TecoTech_30"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.2 }}

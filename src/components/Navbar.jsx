@@ -176,7 +176,7 @@ const Navbar = () => {
 
           {/* Telegram Icon (Mobile) */}
           <a
-            href="https://t.me/yourusername"
+            href="https://t.me/+9VLLc-uIqUw2MWE1"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-2 px-3 py-2 rounded-md text-base font-medium text-blue-500 hover:text-blue-600"
@@ -187,7 +187,7 @@ const Navbar = () => {
 
           {/* YouTube Icon (Mobile) */}
           <a
-            href="https://youtube.com/@yourchannel"
+            href="https://www.youtube.com/@TecoTech_30"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-2 px-3 py-2 rounded-md text-base font-medium text-red-500 hover:text-red-600"

@@ -314,7 +314,7 @@ const Contact = () => {
               </motion.a>
             </div>
 
-            {/* FAQ Section */}
+            {/* FAQ Section
             <div className="bg-white rounded-2xl shadow-lg p-8">
               <h2 className="text-2xl font-bold text-gray-900 font-poppins mb-6">
                 Frequently Asked Questions
@@ -352,7 +352,7 @@ const Contact = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </motion.div>
         </div>
       </div>
