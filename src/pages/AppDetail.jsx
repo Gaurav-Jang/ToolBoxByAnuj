@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
+import video from "../../public/video/helptodownload.mp4";
 
 const AppDetail = () => {
   const { id } = useParams();
@@ -8,6 +9,7 @@ const AppDetail = () => {
   const [app, setApp] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [showVideo, setShowVideo] = useState(false);
 
   useEffect(() => {
     // Fetch apps data and find the specific app
@@ -224,30 +226,43 @@ const AppDetail = () => {
                 )}
               </div>
 
-              {/* Download/Visit Button */}
-              <motion.a
-                href={app.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="block w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold py-4 px-6 rounded-xl text-center shadow-lg hover:shadow-xl transition-all duration-300"
-              >
-                Visit App
-                <svg
-                  className="inline-block w-5 h-5 ml-2"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
+              {/* Buttons Section */}
+              <div className="space-y-4">
+                {/* Visit App Button */}
+                <motion.a
+                  href={app.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="block w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold py-4 px-6 rounded-xl text-center shadow-lg hover:shadow-xl transition-all duration-300"
                 >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                  />
-                </svg>
-              </motion.a>
+                  Visit App
+                  <svg
+                    className="inline-block w-5 h-5 ml-2"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                    />
+                  </svg>
+                </motion.a>
+
+                {/* Watch Video Button */}
+                <motion.button
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  onClick={() => setShowVideo(true)}
+                  className="block w-full bg-gradient-to-r from-red-500 to-pink-600 text-white font-semibold py-4 px-6 rounded-xl text-center shadow-lg hover:shadow-xl transition-all duration-300"
+                >
+                  ▶ Watch Video
+                </motion.button>
+              </div>
             </div>
           </motion.div>
 
@@ -523,6 +538,33 @@ const AppDetail = () => {
           </div>
         </motion.section>
       </div>
+      <AnimatePresence>
+        {showVideo && (
+          <motion.div
+            className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-md"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+          >
+            {/* Wrapper for vertical reel-style video */}
+            <div className="relative w-full max-w-sm h-[80vh] bg-black rounded-2xl shadow-2xl overflow-hidden flex items-center justify-center">
+              <video
+                src={video} // ✅ stored in public/
+                controls
+                autoPlay
+                className="w-full h-full object-contain"
+              />
+              {/* Close Button */}
+              <button
+                onClick={() => setShowVideo(false)}
+                className="absolute top-3 right-3 bg-white/90 hover:bg-white text-gray-800 rounded-full p-2 shadow-md"
+              >
+                ✕
+              </button>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 };
