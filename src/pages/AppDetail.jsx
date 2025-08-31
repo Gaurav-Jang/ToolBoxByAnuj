@@ -260,7 +260,7 @@ const AppDetail = () => {
                   onClick={() => setShowVideo(true)}
                   className="block w-full bg-gradient-to-r from-red-500 to-pink-600 text-white font-semibold py-4 px-6 rounded-xl text-center shadow-lg hover:shadow-xl transition-all duration-300"
                 >
-                  ▶ Watch Video
+                  ▶ How to Download
                 </motion.button>
               </div>
             </div>

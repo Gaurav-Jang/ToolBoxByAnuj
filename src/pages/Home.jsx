@@ -2,11 +2,16 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import AppCard from "../components/AppCard";
-import { Instagram } from "lucide-react";
+import BlogCard from "../components/BlogCard";
+
+// Import only valid icons from lucide-react
+import { Instagram, Youtube, Send } from "lucide-react";
 
 const Home = () => {
   const [apps, setApps] = useState([]);
   const [featuredApps, setFeaturedApps] = useState([]);
+  const [blogs, setBlogs] = useState([]); // ✅ state for blogs
+  const [featuredBlogs, setFeaturedBlogs] = useState([]); // ✅ state for featured blogs
 
   useEffect(() => {
     // Fetch apps data
@@ -14,10 +19,18 @@ const Home = () => {
       .then((response) => response.json())
       .then((data) => {
         setApps(data);
-        // Get first 3 apps as featured
-        setFeaturedApps(data.slice(0, 3));
+        setFeaturedApps(data.slice(0, 3)); // first 3 apps
       })
       .catch((error) => console.error("Error fetching apps:", error));
+
+    // Fetch blogs data
+    fetch("/blogs.json")
+      .then((res) => res.json())
+      .then((data) => {
+        setBlogs(data);
+        setFeaturedBlogs(data.slice(0, 3)); // first 3 blogs
+      })
+      .catch((err) => console.error("Error fetching blogs:", err));
   }, []);
 
   return (
@@ -47,7 +60,6 @@ const Home = () => {
                 Apps
               </span>
             </motion.h1>
-
             <motion.p
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
@@ -57,7 +69,6 @@ const Home = () => {
               Find the perfect applications for your needs with our curated
               collection of top-rated apps. Safe, simple, and always up-to-date.
             </motion.p>
-
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
@@ -86,10 +97,9 @@ const Home = () => {
                 </motion.button>
               </Link>
             </motion.div>
-
-            {/* Instagram logo + name */}
+            {/* Instagram logo + name */}{" "}
             <motion.a
-              href="https://instagram.com/techy_anuj" // <-- replace with your actual Instagram link
+              href="https://instagram.com/techy_anuj"
               target="_blank"
               rel="noopener noreferrer"
               initial={{ opacity: 0, y: 30 }}
@@ -97,10 +107,12 @@ const Home = () => {
               transition={{ duration: 0.8, delay: 0.6 }}
               className="mt-6 flex items-center justify-center space-x-2 hover:opacity-80 transition-opacity"
             >
-              <Instagram className="w-6 h-6 text-pink-500" />
+              {" "}
+              <Instagram className="w-6 h-6 text-pink-500" />{" "}
               <span className="text-white text-lg md:text-xl font-medium">
-                techy_anuj
-              </span>
+                {" "}
+                techy_anuj{" "}
+              </span>{" "}
             </motion.a>
           </div>
         </div>
@@ -175,6 +187,68 @@ const Home = () => {
                 className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold py-3 px-8 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
               >
                 View All Apps
+              </motion.button>
+            </Link>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Featured Blogs Section */}
+
+      <section className="bg-blue-50 py-12 px-6 rounded-2xl shadow-md mt-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="text-center mb-12"
+          >
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 font-poppins mb-4">
+              Featured Blogs
+            </h2>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+              Explore trending topics, insights, and guides written for app
+              lovers and tech enthusiasts.
+            </p>
+          </motion.div>
+
+          {/* Grid of featured blogs */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            viewport={{ once: true }}
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+          >
+            {featuredBlogs.map((blog, index) => (
+              <motion.div
+                key={blog.id}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: index * 0.1 }}
+                viewport={{ once: true }}
+              >
+                <BlogCard blog={blog} />
+              </motion.div>
+            ))}
+          </motion.div>
+
+          {/* Explore All Blogs button */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+            viewport={{ once: true }}
+            className="text-center mt-12"
+          >
+            <Link to="/blogs">
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold py-3 px-8 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
+              >
+                View All Blogs
               </motion.button>
             </Link>
           </motion.div>

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
-import { Instagram } from "lucide-react"; // <-- Instagram Icon
+import { Instagram, Send, Youtube } from "lucide-react"; // <-- Instagram Icon
 import logo from "../../public/images/image.png";
 
 const Navbar = () => {
@@ -69,6 +69,30 @@ const Navbar = () => {
               className="text-pink-500 hover:text-pink-600"
             >
               <Instagram className="w-6 h-6" />
+            </motion.a>
+
+            {/* Telegram Icon */}
+            <motion.a
+              href="https://t.me/yourusername"
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{ scale: 1.2 }}
+              whileTap={{ scale: 0.9 }}
+              className="text-blue-500 hover:text-blue-600"
+            >
+              <Send className="w-6 h-6" />
+            </motion.a>
+
+            {/* YouTube Icon */}
+            <motion.a
+              href="https://youtube.com/@yourchannel"
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{ scale: 1.2 }}
+              whileTap={{ scale: 0.9 }}
+              className="text-red-500 hover:text-red-600"
+            >
+              <Youtube className="w-6 h-6" />
             </motion.a>
           </div>
 
@@ -148,6 +172,28 @@ const Navbar = () => {
           >
             <Instagram className="w-6 h-6" />
             <span>Instagram</span>
+          </a>
+
+          {/* Telegram Icon (Mobile) */}
+          <a
+            href="https://t.me/yourusername"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center space-x-2 px-3 py-2 rounded-md text-base font-medium text-blue-500 hover:text-blue-600"
+          >
+            <Send className="w-6 h-6" /> {/* Telegram-like paper plane */}
+            <span>Telegram</span>
+          </a>
+
+          {/* YouTube Icon (Mobile) */}
+          <a
+            href="https://youtube.com/@yourchannel"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center space-x-2 px-3 py-2 rounded-md text-base font-medium text-red-500 hover:text-red-600"
+          >
+            <Youtube className="w-6 h-6" />
+            <span>YouTube</span>
           </a>
         </div>
       </motion.div>

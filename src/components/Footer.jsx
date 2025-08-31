@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import { Instagram, Send, Youtube } from "lucide-react";
+import { motion } from "framer-motion";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -47,10 +49,10 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Contact Info */}
+          {/* Contact Info + Social Links */}
           <div className="col-span-1">
             <h3 className="text-lg font-semibold mb-4">Connect With Us</h3>
-            <div className="space-y-2">
+            <div className="space-y-4">
               <p className="text-gray-300 text-sm">
                 Stay updated with the latest apps and features.
               </p>
@@ -60,6 +62,45 @@ const Footer = () => {
               >
                 Get in Touch
               </Link>
+
+              {/* Social Media Icons */}
+              <div className="flex space-x-4 mt-4">
+                {/* Instagram */}
+                <motion.a
+                  href="https://instagram.com/techy_anuj"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  whileHover={{ scale: 1.2 }}
+                  whileTap={{ scale: 0.9 }}
+                  className="text-pink-500 hover:text-pink-600"
+                >
+                  <Instagram className="w-6 h-6" />
+                </motion.a>
+
+                {/* Telegram */}
+                <motion.a
+                  href="https://t.me/yourusername"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  whileHover={{ scale: 1.2 }}
+                  whileTap={{ scale: 0.9 }}
+                  className="text-blue-500 hover:text-blue-600"
+                >
+                  <Send className="w-6 h-6" />
+                </motion.a>
+
+                {/* YouTube */}
+                <motion.a
+                  href="https://youtube.com/@yourchannel"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  whileHover={{ scale: 1.2 }}
+                  whileTap={{ scale: 0.9 }}
+                  className="text-red-500 hover:text-red-600"
+                >
+                  <Youtube className="w-6 h-6" />
+                </motion.a>
+              </div>
             </div>
           </div>
         </div>
