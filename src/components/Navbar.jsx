@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
+import { Instagram } from "lucide-react"; // <-- Instagram Icon
 import logo from "../../public/images/image.png";
 
 const Navbar = () => {
@@ -27,7 +28,7 @@ const Navbar = () => {
             {/* Logo Image */}
             <motion.img
               whileHover={{ scale: 1.1 }}
-              src={logo} // <-- replace with your logo image path
+              src={logo}
               alt="Logo"
               className="h-8 w-8 object-contain rounded-full"
             />
@@ -41,7 +42,7 @@ const Navbar = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:block">
+          <div className="hidden md:flex items-center space-x-4">
             <div className="ml-10 flex items-baseline space-x-4">
               {navLinks.map((link) => (
                 <Link
@@ -57,6 +58,18 @@ const Navbar = () => {
                 </Link>
               ))}
             </div>
+
+            {/* Instagram Icon */}
+            <motion.a
+              href="https://instagram.com/techy_anuj"
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{ scale: 1.2 }}
+              whileTap={{ scale: 0.9 }}
+              className="text-pink-500 hover:text-pink-600"
+            >
+              <Instagram className="w-6 h-6" />
+            </motion.a>
           </div>
 
           {/* Mobile menu button */}
@@ -125,6 +138,17 @@ const Navbar = () => {
               {link.name}
             </Link>
           ))}
+
+          {/* Instagram Icon (Mobile) */}
+          <a
+            href="https://instagram.com/techy_anuj"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center space-x-2 px-3 py-2 rounded-md text-base font-medium text-pink-500 hover:text-pink-600"
+          >
+            <Instagram className="w-6 h-6" />
+            <span>Instagram</span>
+          </a>
         </div>
       </motion.div>
     </nav>

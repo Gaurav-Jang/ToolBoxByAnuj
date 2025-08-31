@@ -163,10 +163,11 @@ const Contact = () => {
               </h2>
 
               <div className="space-y-6">
+                {/* Email */}
                 <div className="flex items-start">
                   <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
                     <svg
-                      className="w-5 h-5 text-blue-600"
+                      className="w-9 h-9 text-blue-600"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -180,17 +181,45 @@ const Contact = () => {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-1">
+                    <h3 className="text-lg font-semibold text-gray-900 ">
                       Email
                     </h3>
-                    <p className="text-gray-600"> tecotech30@gmail.com</p>
+                    <p className="text-gray-600">tecotech30@gmail.com</p>
                   </div>
                 </div>
 
+                {/* Instagram */}
+                <div className="flex items-start">
+                  <div className="w-10 h-10 bg-pink-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="w-9 h-9 text-pink-500"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm0 2h10c1.7 0 3 1.3 3 3v10c0 1.7-1.3 3-3 3H7c-1.7 0-3-1.3-3-3V7c0-1.7 1.3-3 3-3zm10 1a1 1 0 100 2 1 1 0 000-2zM12 7a5 5 0 100 10 5 5 0 000-10zm0 2a3 3 0 110 6 3 3 0 010-6z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-900 ">
+                      Instagram
+                    </h3>
+                    <a
+                      href="https://instagram.com/your_username"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-pink-500 hover:underline"
+                    >
+                      @techy_anuj
+                    </a>
+                  </div>
+                </div>
+
+                {/* Response Time */}
                 <div className="flex items-start">
                   <div className="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
                     <svg
-                      className="w-5 h-5 text-green-600"
+                      className="w-9 h-9 text-green-600"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -204,17 +233,18 @@ const Contact = () => {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-1">
+                    <h3 className="text-lg font-semibold text-gray-900 ">
                       Response Time
                     </h3>
                     <p className="text-gray-600">Usually within 24 hours</p>
                   </div>
                 </div>
 
+                {/* Location */}
                 <div className="flex items-start">
                   <div className="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
                     <svg
-                      className="w-5 h-5 text-purple-600"
+                      className="w-9 h-9 text-purple-600"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -234,7 +264,7 @@ const Contact = () => {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-1">
+                    <h3 className="text-lg font-semibold text-gray-900 ">
                       Location
                     </h3>
                     <p className="text-gray-600">Available worldwide</p>
@@ -248,7 +278,7 @@ const Contact = () => {
               <div className="flex items-center mb-4">
                 <div className="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center mr-4">
                   <svg
-                    className="w-5 h-5 text-white"
+                    className="w-9 h-9 text-white"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                   >

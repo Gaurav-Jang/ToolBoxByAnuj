@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import AppCard from "../components/AppCard";
+import { Instagram } from "lucide-react";
 
 const Home = () => {
   const [apps, setApps] = useState([]);
@@ -85,6 +86,22 @@ const Home = () => {
                 </motion.button>
               </Link>
             </motion.div>
+
+            {/* Instagram logo + name */}
+            <motion.a
+              href="https://instagram.com/techy_anuj" // <-- replace with your actual Instagram link
+              target="_blank"
+              rel="noopener noreferrer"
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.6 }}
+              className="mt-6 flex items-center justify-center space-x-2 hover:opacity-80 transition-opacity"
+            >
+              <Instagram className="w-6 h-6 text-pink-500" />
+              <span className="text-white text-lg md:text-xl font-medium">
+                techy_anuj
+              </span>
+            </motion.a>
           </div>
         </div>
 
