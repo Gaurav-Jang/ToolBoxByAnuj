@@ -175,7 +175,7 @@ const Home = () => {
             className="text-center mb-12"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 font-poppins mb-4">
-              Why Choose toolboxbyanuj?
+              Why Choose techy_anuj?
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               We make app discovery simple, safe, and enjoyable for everyone.

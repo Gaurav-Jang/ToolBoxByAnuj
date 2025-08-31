@@ -174,7 +174,7 @@ const Contact = () => {
                     <h3 className="text-lg font-semibold text-gray-900 mb-1">
                       Email
                     </h3>
-                    <p className="text-gray-600">hello@toolboxbyanuj.com</p>
+                    <p className="text-gray-600">hello@techy_anuj.com</p>
                   </div>
                 </div>
 
@@ -305,10 +305,10 @@ const Contact = () => {
 
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                    Is toolboxbyanuj free to use?
+                    Is techy_anuj free to use?
                   </h3>
                   <p className="text-gray-600">
-                    Absolutely! toolboxbyanuj is completely free for all users.
+                    Absolutely! techy_anuj is completely free for all users.
                     We're supported by ethical advertising.
                   </p>
                 </div>

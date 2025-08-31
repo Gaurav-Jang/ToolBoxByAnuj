@@ -15,7 +15,7 @@ const About = () => {
             About Us
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Learn more about toolboxbyanuj and our mission to make app discovery
+            Learn more about techy_anuj and our mission to make app discovery
             simple and safe for everyone.
           </p>
         </motion.div>
@@ -51,7 +51,7 @@ const About = () => {
               </h2>
             </div>
             <p className="text-gray-600 text-lg leading-relaxed">
-              At toolboxbyanuj, we believe that discovering great applications
+              At techy_anuj, we believe that discovering great applications
               should be simple, safe, and enjoyable. Our platform serves as a
               curated gateway to the best apps available, helping users find
               exactly what they need without the hassle of searching through
@@ -215,7 +215,7 @@ const About = () => {
               Ready to Discover Amazing Apps?
             </h2>
             <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-              Join thousands of users who trust toolboxbyanuj for their app
+              Join thousands of users who trust techy_anuj for their app
               discovery needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

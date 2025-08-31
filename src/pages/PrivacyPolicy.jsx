@@ -36,12 +36,12 @@ const PrivacyPolicy = () => {
               Introduction
             </h2>
             <p className="text-gray-600 leading-relaxed">
-              toolboxbyanuj ("we," "our," or "us") is committed to protecting
-              your privacy. This Privacy Policy explains how we collect, use,
+              techy_anuj ("we," "our," or "us") is committed to protecting your
+              privacy. This Privacy Policy explains how we collect, use,
               disclose, and safeguard your information when you visit our
-              website toolboxbyanujb.com (the "Service"). Please read this
-              privacy policy carefully. If you do not agree with the terms of
-              this privacy policy, please do not access the site.
+              website techy_anujb.com (the "Service"). Please read this privacy
+              policy carefully. If you do not agree with the terms of this
+              privacy policy, please do not access the site.
             </p>
           </section>
 
@@ -286,7 +286,7 @@ const PrivacyPolicy = () => {
               contact us:
             </p>
             <div className="space-y-2 text-gray-600">
-              <p>Email: privacy@toolboxbyanuj.com</p>
+              <p>Email: privacy@techy_anuj.com</p>
               <p>
                 Website:{" "}
                 <a
