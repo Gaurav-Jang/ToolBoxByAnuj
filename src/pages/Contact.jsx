@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -7,6 +8,8 @@ const Contact = () => {
     email: "",
     message: "",
   });
+
+  const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
     setFormData({
@@ -17,14 +20,32 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Show success alert
-    alert("Message sent successfully! We'll get back to you soon.");
-    // Reset form
-    setFormData({
-      name: "",
-      email: "",
-      message: "",
-    });
+    setLoading(true);
+
+    emailjs
+      .send(
+        "service_cf9dgsm", // replace with your service ID
+        "template_6zzx4mr", // replace with your template ID
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          message: formData.message,
+          to_name: "techy_anuj", // your name
+        },
+        "RQXXaKLYzBTj0QXaa" // replace with your EmailJS public key
+      )
+      .then(
+        () => {
+          alert("Message sent successfully! We'll get back to you soon.");
+          setFormData({ name: "", email: "", message: "" });
+          setLoading(false);
+        },
+        (error) => {
+          console.error("FAILED...", error);
+          alert("Oops! Something went wrong. Please try again.");
+          setLoading(false);
+        }
+      );
   };
 
   return (
@@ -118,24 +139,12 @@ const Contact = () => {
 
               <motion.button
                 type="submit"
+                disabled={loading}
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
-                className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold py-3 px-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
+                className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold py-3 px-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 disabled:opacity-70"
               >
-                Send Message
-                <svg
-                  className="inline-block w-5 h-5 ml-2"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"
-                  />
-                </svg>
+                {loading ? "Sending..." : "Send Message"}
               </motion.button>
             </form>
           </motion.div>
@@ -174,7 +183,7 @@ const Contact = () => {
                     <h3 className="text-lg font-semibold text-gray-900 mb-1">
                       Email
                     </h3>
-                    <p className="text-gray-600">hello@techy_anuj.com</p>
+                    <p className="text-gray-600"> tecotech30@gmail.com</p>
                   </div>
                 </div>
 

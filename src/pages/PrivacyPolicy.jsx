@@ -286,7 +286,7 @@ const PrivacyPolicy = () => {
               contact us:
             </p>
             <div className="space-y-2 text-gray-600">
-              <p>Email: privacy@techy_anuj.com</p>
+              <p>Email: tecotech30@gmail.com</p>
               <p>
                 Website:{" "}
                 <a
