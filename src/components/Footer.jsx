@@ -21,7 +21,7 @@ const Footer = () => {
               to="/"
               className="text-2xl font-bold font-poppins bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent"
             >
-              toolboxbyanuj
+              techy_anuj
             </Link>
             <p className="mt-4 text-gray-300 text-sm">
               Discover amazing apps with our curated collection. Find the

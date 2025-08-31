@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
+import logo from "../../public/images/image.png";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,12 +23,20 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center">
+          <Link to="/" className="flex items-center space-x-2">
+            {/* Logo Image */}
+            <motion.img
+              whileHover={{ scale: 1.1 }}
+              src={logo} // <-- replace with your logo image path
+              alt="Logo"
+              className="h-8 w-8 object-contain rounded-full"
+            />
+            {/* Logo Text */}
             <motion.div
               whileHover={{ scale: 1.05 }}
               className="text-2xl font-bold font-poppins bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"
             >
-              toolboxbyanuj
+              techy_anuj
             </motion.div>
           </Link>
 
