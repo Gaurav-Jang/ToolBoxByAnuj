@@ -143,9 +143,9 @@ const BlogDetail = () => {
             }}
           />
 
-          {/* ✅ Instagram Reel Button */}
-          {blog.reel && (
-            <div className="mt-8 text-center">
+          {/* Buttons: Reel + Amazon */}
+          <div className="mt-8 flex justify-center gap-4 flex-wrap">
+            {blog.reel && (
               <a
                 href={blog.reel}
                 target="_blank"
@@ -154,8 +154,19 @@ const BlogDetail = () => {
               >
                 🎥 Watch Reel
               </a>
-            </div>
-          )}
+            )}
+
+            {blog.amazonLink && (
+              <a
+                href={blog.amazonLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-gradient-to-r from-red-600 to-yellow-500 text-white font-medium px-6 py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
+              >
+                🛒 Buy on Amazon
+              </a>
+            )}
+          </div>
         </div>
       </motion.div>
 

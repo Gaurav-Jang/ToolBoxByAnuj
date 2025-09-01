@@ -8,7 +8,8 @@
     "date": "August 18, 2025",
     "category": "Tech",
     "image": "https://plus.unsplash.com/premium_photo-1685283298465-e52e933a3312?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2VvfGVufDB8fDB8fHww",
-    "reel": "https://www.instagram.com/reel/DNfxzfZp2tF/?igsh=MzRlODBiNWFlZA=="
+    "reel": "https://www.instagram.com/reel/DNfxzfZp2tF/?igsh=MzRlODBiNWFlZA==",
+    "amazonLink": ""
   },
   {
     "id": "2",
@@ -19,7 +20,8 @@
     "date": "August 31, 2025",
     "category": "Gadgets",
     "image": "https://images.gizbot.com/webp/img/2024/08/noise-buds-n1-pro2-1724753641.jpeg",
-    "reel": "https://www.instagram.com/reel/XXXXXXXXXX/"
+    "reel": "https://www.instagram.com/reel/DOC1ylCEof7/?igsh=cjh6ajRuaHAybjdw",
+    "amazonLink": "https://amzn.to/4mFWskB"
   },
   {
     "id": "3",
@@ -30,7 +32,8 @@
     "date": "August 10, 2025",
     "category": "Travel",
     "image": "https://source.unsplash.com/600x400/?travel,destinations",
-    "reel": "https://www.instagram.com/reel/DNfxzfZp2tF/?igsh=MzRlODBiNWFlZA=="
+    "reel": "https://www.instagram.com/reel/DNfxzfZp2tF/?igsh=MzRlODBiNWFlZA==",
+    "amazonLink": ""
   },
   {
     "id": "4",
@@ -41,7 +44,8 @@
     "date": "August 5, 2025",
     "category": "Lifestyle",
     "image": "https://source.unsplash.com/600x400/?minimalism,lifestyle",
-    "reel": "https://www.instagram.com/reel/DNfxzfZp2tF/?igsh=MzRlODBiNWFlZA=="
+    "reel": "https://www.instagram.com/reel/DNfxzfZp2tF/?igsh=MzRlODBiNWFlZA==",
+    "amazonLink": ""
   },
   {
     "id": "5",
@@ -52,7 +56,8 @@
     "date": "August 1, 2025",
     "category": "Design",
     "image": "https://source.unsplash.com/600x400/?design,ui",
-    "reel": "https://www.instagram.com/reel/DNfxzfZp2tF/?igsh=MzRlODBiNWFlZA=="
+    "reel": "https://www.instagram.com/reel/DNfxzfZp2tF/?igsh=MzRlODBiNWFlZA==",
+    "amazonLink": ""
   },
   {
     "id": "6",
@@ -63,7 +68,8 @@
     "date": "July 28, 2025",
     "category": "Food",
     "image": "https://source.unsplash.com/600x400/?food,vegan",
-    "reel": "https://www.instagram.com/reel/DNfxzfZp2tF/?igsh=MzRlODBiNWFlZA=="
+    "reel": "https://www.instagram.com/reel/DNfxzfZp2tF/?igsh=MzRlODBiNWFlZA==",
+    "amazonLink": ""
   },
   {
     "id": "7",
@@ -74,6 +80,7 @@
     "date": "July 20, 2025",
     "category": "Fitness",
     "image": "https://source.unsplash.com/600x400/?fitness,workout",
-    "reel": "https://www.instagram.com/reel/DNfxzfZp2tF/?igsh=MzRlODBiNWFlZA=="
+    "reel": "https://www.instagram.com/reel/DNfxzfZp2tF/?igsh=MzRlODBiNWFlZA==",
+    "amazonLink": ""
   }
 ]
