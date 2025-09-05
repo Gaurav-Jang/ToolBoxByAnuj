@@ -38,7 +38,7 @@
     "description": "Stream and download the latest movies and TV shows.",
     "longDescription": "MovieBox allows users to watch and download trending movies and TV shows. With a vast collection of entertainment content, it’s a go-to app for movie lovers.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUVaDzNy3A34wIsegtrbpBiUsM83FgfTERvA&s",
-    "link": "https://link-hub.net/1390078/zDSJCamWoslu",
+    "link": "https://direct-link.net/1390078/wcAbUQ5bQq6m",
     "category": "Entertainment",
     "rating": 4.5,
     "downloads": "500K+"
@@ -49,7 +49,7 @@
     "description": "Download apps and games not available on PlayStore.",
     "longDescription": "APKPure provides direct APK downloads for apps and games worldwide. It’s a popular alternative app store that offers region-restricted apps with fast updates.",
     "image": "https://sc.filehippo.net/images/t_app-icon-l/p/2252f9cf-2802-47bf-ae38-57479faf4220/2304589184/apkpure-logo",
-    "link": "https://link-target.net/1390078/cYNi3hyZnn42",
+    "link": "https://direct-link.net/1390078/KQawQlFvUGjj",
     "category": "Tools",
     "rating": 4.6,
     "downloads": "300M+"
@@ -82,7 +82,7 @@
     "description": "Enhanced Instagram app with privacy and media download features.",
     "longDescription": "InstaPro is a popular Instagram mod that allows you to download reels, stories, and posts while providing advanced privacy options and customization features.",
     "image": "https://www.divxland.org/wp-content/uploads/2025/04/instapro-thumb.png",
-    "link": "https://link-hub.net/1390078/uJhZp2Rwoqin",
+    "link": "https://direct-link.net/1390078/JHuQRjf3xfm6",
     "category": "Social",
     "rating": 4.7,
     "downloads": "2M+"
@@ -130,5 +130,27 @@
     "category": "Entertainment",
     "rating": 4.7,
     "downloads": "200M+"
+  },
+  {
+    "id": "13",
+    "name": "Gesture",
+    "description": "Control your phone with custom gesture shortcuts.",
+    "longDescription": "Gesture lets you create personalized shortcuts by drawing shapes or signs on your screen. You can quickly open apps, call contacts, or trigger specific actions with ease. Lightweight and customizable, Gesture enhances Android usability, though some Xiaomi devices may face compatibility issues.",
+    "image": "https://play-lh.googleusercontent.com/zyOhtsBwNTkSpmDcKdAMAc5Dl5wUB7seMAWqoTnLffa4xuFpiQdNNtasDTEsdVqB8bE",
+    "link": "https://link-center.net/1390078/nxDfBdllClwg",
+    "category": "Utilities",
+    "rating": 4.3,
+    "downloads": "10M+"
+  },
+  {
+    "id": "14",
+    "name": "Audiomack",
+    "description": "Stream and download the hottest music, mixtapes, and podcasts.",
+    "longDescription": "Audiomack is a music streaming and discovery app that lets you listen to the latest songs, mixtapes, and playlists across hip-hop, R&B, EDM, Afropop, and more. You can stream online or download tracks for offline use. With curated playlists, offline support, and free streaming, Audiomack is a go-to app for music lovers.",
+    "image": "https://play-lh.googleusercontent.com/osdG0qlnZXFUOmfsOSOg5StopJOYti6lkNUWhipxfwfi-Oe1Dz0hekS_c2dIUu-QQFA",
+    "link": "https://link-center.net/1390078/i4zL8w1S7uuX",
+    "category": "Music & Audio",
+    "rating": 4.7,
+    "downloads": "100M+"
   }
 ]
