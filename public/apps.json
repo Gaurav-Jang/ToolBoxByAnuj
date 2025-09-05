@@ -152,5 +152,49 @@
     "category": "Music & Audio",
     "rating": 4.7,
     "downloads": "100M+"
+  },
+  {
+    "id": "15",
+    "name": "Pika! Super Wallpaper",
+    "description": "Vibrant and immersive 3D live wallpapers for your device.",
+    "longDescription": "Pika! Super Wallpaper delivers an immersive 3D interactive wallpaper experience—beautiful dynamic and static themes like stars, snow, cars, robots, pets, and more. Includes charging animations and easy one-tap preview and setup for stunning visuals and real-time customization.",
+    "image": "https://play-lh.googleusercontent.com/45uEkPGMMbtmGXK8qFdSjzV7W63Gm8toQCPnnFSfzpv0TZ2gLt9oMFaFfwbhbb9FUPY",
+    "link": "https://link-target.net/1390078/qKQy4QX6iGjr",
+    "category": "Personalization",
+    "rating": 3.5,
+    "downloads": "1M+"
+  },
+  {
+    "id": "16",
+    "name": "Hypic",
+    "description": "AI-powered photo editor for filters, retouching, and artistic transformations.",
+    "longDescription": "Hypic is a versatile AI photo editor that lets you remove blemishes, reshape facial features, apply aesthetic filters, and transform photos into artistic styles or avatars with one tap. Perfect for quick edits or creative content for social media.",
+    "image": "https://play-lh.googleusercontent.com/Izb4AbKLUUUeFCvdUjWBnA7OyJZhY4U8Y9vbWTxV203-OAb35JvKEyw8gxoQupPrSfc",
+    "link": "https://link-hub.net/1390078/hWNiJpr5Haa8",
+    "category": "Photography",
+    "rating": 4.5,
+    "downloads": "50M+"
+  },
+  {
+    "id": "17",
+    "name": "Bikii Cloud Game",
+    "description": "Play AAA PC and console games on your phone via cloud streaming.",
+    "longDescription": "Bikii Cloud Game enables cloud gaming—stream high-end PC/console titles (e.g., Steam, Epic, PS, Xbox games) directly to any smartphone, regardless of hardware specs. Quickly access and play AAA games via cloud servers.",
+    "image": "https://apktodo.io/uploads/2024/6/bikii-cloud-game-thumbnail-1.jpg",
+    "link": "https://link-target.net/1390078/S2W00aH5yDkS",
+    "category": "Games",
+    "rating": 3.6,
+    "downloads": "5M+"
+  },
+  {
+    "id": "18",
+    "name": "Honeygain",
+    "description": "Earn money passively by sharing your unused internet bandwidth.",
+    "longDescription": "Honeygain runs in the background and lets you earn money by sharing unused internet bandwidth with trusted partners. It operates passively with no active involvement required, allowing you to monetize idle internet data.",
+    "image": "https://images.softwaresuggest.com/software_logo/1562758850_logo_y.jpg",
+    "link": "https://link-target.net/1390078/hJqImy5lKIMi",
+    "category": "Finance",
+    "rating": "Varied",
+    "downloads": "Millions"
   }
 ]
