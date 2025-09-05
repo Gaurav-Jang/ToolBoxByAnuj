@@ -196,5 +196,16 @@
     "category": "Finance",
     "rating": "Varied",
     "downloads": "Millions"
+  },
+  {
+    "id": "19",
+    "name": "Truecaller",
+    "description": "Identify unknown callers, block spam, and manage calls & SMS.",
+    "longDescription": "Truecaller is one of the most popular caller ID and spam-blocking apps worldwide. It identifies unknown calls, blocks spam, and helps you manage messages and contacts. With advanced features like call recording, smart messaging, UPI payments (in India), and powerful caller ID, Truecaller makes communication safer and more efficient.",
+    "image": "https://play-lh.googleusercontent.com/T9WgkoSUXy7wa3_oMRWt-kxsLVtgwMKoX4IdHRU_mF33MKudjAIn1ls-J2XHHo06-rY",
+    "link": "https://link-hub.net/1390078/28aazPJvFtFz",
+    "category": "Communication",
+    "rating": 4.5,
+    "downloads": "1B+"
   }
 ]
